@@ -1,0 +1,344 @@
+﻿/* ==============================================================================
+// Style Sheet File
+//===============================================================================
+// Creation Date	    :	08-Aug-2008
+// Created By		    :	Tata Consultancy Services
+// Description:         :   The file is used to set the style properties of controls 
+//							in application
+//===============================================================================
+// Last Modified Date	:	
+// Description		    :	
+// Version No           :   1.0
+===============================================================================*/
+html,body 
+{
+	 padding : 0;
+	 margin: 0;
+	 background-color: #FFFFFF;
+}
+
+.align-center
+{
+	 text-align:center;	 
+	 font-size:small;
+}
+
+.num-align-right
+{
+	text-align:right;
+}
+
+.subheader
+{
+	font-size: 10px;
+	font-family: Times New Roman;
+	font-weight: bold;
+	height: 1px;
+	background-color: #CC0000;
+	width: 100%;
+}
+
+.Numbers
+{
+	width: 50px;
+	font-weight: normal;
+	font-size: 10px;
+	font-family: Verdana;
+	text-align: right;
+}
+
+.Text1
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 11px;
+	width: 70px;
+	font-family: Verdana;
+}
+
+.TextLabel
+{
+	text-align: left;
+	font-weight: bold;
+	font-size: 11px;
+	width: 70px;
+	font-family: Verdana;
+}
+
+.Text3
+{
+	font-weight: normal;
+	font-size: 10px;
+	width: 150px;
+	font-family: Verdana;
+}
+
+.MenuItem
+{
+	font-weight: bold;
+	font-size: 13px;
+	font-family: Verdana;
+	text-align: center;
+}
+
+.TextValue
+{
+	font-weight: normal;
+	font-size: 10px;
+	font-family: Verdana;	
+}
+
+.TextLeft
+{
+	font-weight: normal;
+	font-size: 10px;
+	font-family: Verdana;
+	text-align: left;
+}
+
+.TextRight
+{
+	font-weight: normal;
+	font-size: 10px;
+	font-family: Verdana;
+	text-align: right;
+}
+.TextCenter
+{
+	font-weight: normal;
+	font-size: 10px;
+	font-family: Verdana;
+	text-align: center;
+}
+.TextTextBox
+{
+	text-align: center;
+	font-weight: normal;
+	font-size: 11px;	
+	font-family: Verdana;
+}
+
+.button
+{
+	border-right: black 1px outset;
+	border-top: black 1px outset;
+	font-weight: normal;
+	font-size: 13px;
+	border-left: black 1px outset;
+	width: 65px;
+	border-bottom: black 1px outset;
+}
+
+.button1
+{
+	border-right: black 1px outset;
+	border-top: black 1px outset;
+	font-weight: normal;
+	font-size: 13px;
+	border-left: black 1px outset;
+	width: 120px;
+	border-bottom: black 1px outset;
+}
+
+.Date
+{
+	font-weight: normal;
+	font-size: 10px;
+	width: 75px;
+	font-family: Verdana;
+}
+
+.Edit
+{
+	text-align: center;
+	font-weight: normal;
+	font-size: 10px;
+	width: 60px;
+	font-family: Verdana;
+}
+
+.MenuItemCss
+{
+	text-align: center;
+	font-family: Verdana;
+	font-size: 8pt;	
+}
+
+.LeftNavMenuItemCss
+{
+	text-align: center;
+	border-color: Black;
+	font-family: Verdana;
+	font-size: 8pt;
+}
+
+.MenuChildItemCss
+{
+	text-align: left;
+	font-family: Verdana;
+	font-size: 8pt;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.Legend-Text
+{
+	text-align: left;
+	border-color: Blue;
+	font-family: Verdana;
+	font-size: 8pt;
+}
+
+.DropDown
+{
+	font-size: 8pt;
+	width: 190px;
+	font-family: Verdana;
+}
+
+.DateField
+{
+	font-size: 8pt;
+	width: 80px;
+	font-family: Verdana;
+}
+
+.MandatoryField
+{
+	font-size: 8pt;
+	color: Red;
+}
+
+.Calendar
+{
+	height: 15px;
+	width: 20px;
+	border: 0px solid #339;
+}
+
+.TextBox
+{
+	font-size: 8pt;
+	width: 190px;
+	font-family: Verdana;
+}
+
+.ReadOnlyTextBox
+{
+	font-size: 8pt;
+	width: 190px;
+	font-family: Verdana;
+	background-color: ButtonFace;
+}
+
+.Table
+{
+	font-size: 8pt;
+	font-family: Verdana;
+}
+
+.TextArea
+{
+	font-size: 8pt;
+	width: 190px;
+	height: 40px;
+	font-family: Verdana;
+}
+
+.LabelField
+{
+	text-align: left;
+	border-color: Black;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 8pt;
+}
+
+.Label-Text
+{
+	text-align: left;
+	border-color: Black;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 8pt;
+	 
+}
+
+.LabelHeader
+{
+	border-color: Black;
+	font-family: Verdana;
+	font-size: medium;
+	font-weight: bold;
+}
+
+.Grid-Text
+{
+	text-align: left;
+	font-family: Verdana;
+	font-size: 8pt;
+}
+
+.Grid-Text-Center
+{
+	text-align: center;
+	font-family: Verdana;
+	color: Blue;
+	font-size: 8pt;
+}
+
+.Grid-Header-Text
+{
+	text-align: center;
+	font-family: Verdana;
+	font-weight: bold;
+	color: white;
+	font-size: 8pt;
+}
+.DisabledTextArea
+{	
+	background-color:ButtonFace;
+	font-size: 8pt;
+	width: 175px;
+	height:40px;
+	font-family: Verdana;	
+}
+.DisabledTextBox
+{
+	background-color:ButtonFace;
+	font-size: 8pt;
+	width: 175px;
+	font-family: Verdana;	
+}
+.DisabledNumericTextBox
+{
+	background-color:ButtonFace;
+	font-size: 8pt;
+	width: 175px;
+	font-family: Verdana;
+	text-align:right;	
+}
+
+.AuditTable
+{
+	font-size: 8pt;
+	font-family: Verdana;
+	font-weight: normal;
+	text-align: left;
+}
+.AlertLabel
+{	
+	font-size:10pt;
+	font-weight:bold;
+	font-family: Verdana;
+	color:Red;
+}
+
+#navmenu ul {margin: 0; padding: 0; 
+	list-style-type: none; list-style-image: none; }
+#navmenu li {display: inline; }
+#navmenu ul li a {text-decoration:none;  margin: 4px;
+	padding: 5px 20px 5px 20px; color: red;
+	background: white;}
+#navmenu ul li a:hover {color: purple;
+	background: yellow; }

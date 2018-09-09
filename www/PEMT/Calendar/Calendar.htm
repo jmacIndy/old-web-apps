@@ -1,0 +1,45 @@
+<%-- =============================================================================
+ Calender.htm
+==============================================================================
+ Creation Date		:	11-Aug-2008
+ Created By		    :	TCS
+ Description		:   Calender.htm
+==============================================================================
+ Last Modified Date	:	
+ Description		:	
+ Version No         :   1.0
+===============================================================================--%>
+<html xmlns:Calendar_Control>
+<head>
+    <title>Select Date</title>
+    <style> Calendar_Control\:Calendar {behavior: url(calendar.htc)} </style>
+</head>
+<body bgcolor="#ffffcc">
+    <Calendar_Control:calendar id="cal" style="cal--daytitle-background-color: white;
+        cal--daytitle-color: black; cal--daytitle-font-family: verdana; cal--daytitle-font-size: 7pt;
+        cal--daytitle-font-weight: normal; cal--offmonth-background-color: white; cal--offmonth-color: LightGrey;
+        cal--offmonth-font-family: verdana; cal--offmonth-font-size: 7pt; cal--offmonth-font-weight: normal;
+        cal--offmonth-text-align: center; cal--currentmonth-background-color: white;
+        cal--currentmonth-color: black; cal--currentmonth-font-family: verdana; cal--currentmonth-font-size: 7pt;
+        cal--currentmonth-font-weight: normal; cal--currentmonth-text-align: center;
+        cal--selectedday-background-color: #ffffcc; cal--selectedday-color: black; cal--selectedday-font-family: verdana;
+        cal--selectedday-font-size: 7pt; cal--selectedday-font-weight: normal; cal--selectedday-text-align: center;
+        cal--title-background-color: #ffffcc; cal--title-color: black; cal--title-font-family: verdana;
+        cal--title-font-size: 10px; cal--title-font-weight: normal">
+    </Calendar_Control:calendar>
+
+    <script event="onload" for="window">
+			
+			//Convert date string to DD/MM/YYYY format. Because our htc component interprets in this format only
+			var oDate = new Date(self.dialogArguments)
+			cal.value = oDate.getDate() + '/' + (oDate.getMonth()+1) + '/' + oDate.getFullYear()
+			
+			//set return value. In case, if user clicks cancel, he will get this.
+			self.returnValue = '';
+			
+			self.focus();
+		
+    </script>
+
+</body>
+</html>
